@@ -5,17 +5,15 @@
   <version>0.0.1-SNAPSHOT</version>
   
 <!-- Indiquer l'encodage et le projet en Java 11 -->
-	<!--  <properties>
+     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>11</maven.compiler.source>
 		<maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
-	</properties>-->
-	<properties>
-  <sonar.projectKey>mouktar-hassan_TDDTestsProject</sonar.projectKey>
-  <sonar.organization>mouktar-hassan</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-  <sonar.login>37f2dff5516a901cbe96c6b8be4ab3acbda56357</sonar.login>
-    </properties>
+		<sonar.projectKey>mouktar-hassan_TDDTestsProject</sonar.projectKey>
+        <sonar.organization>mouktar-hassan</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>37f2dff5516a901cbe96c6b8be4ab3acbda56357</sonar.login>
+	</properties>
 	
 	<!-- Déclaration de la dépendance vers JUnit -->
 	<dependencies>
